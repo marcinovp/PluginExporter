@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Regex in Blueprints",
+	"Description": "Regex functionality exposed to blueprints",
+	"Category": "Other",
+	"CreatedBy": "CrazyClock",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RegexInBP",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
