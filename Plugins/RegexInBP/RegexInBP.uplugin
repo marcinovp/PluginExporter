@@ -8,7 +8,7 @@
 	"CreatedBy": "CrazyClock",
 	"CreatedByURL": "",
 	"DocsURL": "",
-	"MarketplaceURL": "https://publish.unrealengine.com/v2/edit-product/16339a5a34cb452c9a277bc3044b4608",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/16339a5a34cb452c9a277bc3044b4608",
 	"SupportURL": "",
 	"CanContainContent": false,
 	"IsBetaVersion": false,
@@ -31,7 +31,6 @@
 				"AllDesktop",
 				"TVOS",
 				"Switch",
-				"Quail",
 				"Lumin"
 			]
 		}
