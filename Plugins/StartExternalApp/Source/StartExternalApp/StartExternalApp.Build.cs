@@ -1,10 +1,10 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
 
-public class StartExternalApplication : ModuleRules
+public class StartExternalApp : ModuleRules
 {
-	public StartExternalApplication(ReadOnlyTargetRules Target) : base(Target)
+	public StartExternalApp(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		

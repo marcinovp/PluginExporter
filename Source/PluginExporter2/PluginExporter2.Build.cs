@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class PluginExporter : ModuleRules
+public class PluginExporter2 : ModuleRules
 {
-	public PluginExporter(ReadOnlyTargetRules Target) : base(Target)
+	public PluginExporter2(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

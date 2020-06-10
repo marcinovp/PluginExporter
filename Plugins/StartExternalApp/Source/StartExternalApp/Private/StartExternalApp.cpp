@@ -1,15 +1,15 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
-#include "StartExternalApplication.h"
+#include "StartExternalApp.h"
 
-#define LOCTEXT_NAMESPACE "FStartExternalApplicationModule"
+#define LOCTEXT_NAMESPACE "FStartExternalAppModule"
 
-void FStartExternalApplicationModule::StartupModule()
+void FStartExternalAppModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 }
 
-void FStartExternalApplicationModule::ShutdownModule()
+void FStartExternalAppModule::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
 	// we call this function before unloading the module.
@@ -17,4 +17,4 @@ void FStartExternalApplicationModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 	
-IMPLEMENT_MODULE(FStartExternalApplicationModule, StartExternalApplication)
+IMPLEMENT_MODULE(FStartExternalAppModule, StartExternalApp)

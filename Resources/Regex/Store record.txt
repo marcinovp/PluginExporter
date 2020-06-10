@@ -1,3 +1,29 @@
-Title: Regex in Blueprints
+Title: 
+Regex in Blueprints
 
-Tags: regex,blueprints,regular,expressions
+Tags: 
+regex,blueprints,regular,expressions
+
+Short:
+Regular expressions available for blueprints
+
+Long:
+This plugin saves you the hassle of diving into C++ when you need to use some regex searching in your project
+
+Technical:
+Features:
+
+ Regular expressions
+ Relief of evading C++ nightmares
+
+
+Code Modules: (Please include a full list of each Plugin module and their module type (Runtime, Editor etc.))
+
+ RegexInBP [Runtime]
+ 
+
+Number of C++ Classes: 1
+
+Supported Development Platforms: All platforms
+
+Supported Target Build Platforms: All platforms

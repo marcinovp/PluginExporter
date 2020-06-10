@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "PluginExporterGameModeBase.generated.h"
+#include "PluginExporter2GameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class PLUGINEXPORTER_API APluginExporterGameModeBase : public AGameModeBase
+class PLUGINEXPORTER2_API APluginExporter2GameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

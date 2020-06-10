@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "StartExternalApplication",
+	"FriendlyName": "StartExternalApp",
 	"Description": "",
 	"Category": "Other",
 	"CreatedBy": "Peter Marcinov",
@@ -15,9 +15,13 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "StartExternalApplication",
+			"Name": "StartExternalApp",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win32",
+				"Win64"
+			]
 		}
 	]
 }
