@@ -38,7 +38,7 @@ TArray<FRegexExtendedResult> URegexBPLibrary::MatchExtended(const FString & patt
 	{
 		FRegexExtendedResult extResult;
 
-		for (int32 i = 0; i < frm.GetMatchEnding(); i++)
+		for (int32 i = 0; i <= frm.GetMatchEnding(); i++)
 		{
 			FString group = frm.GetCaptureGroup(i);
 			if (group.Len() > 0)
