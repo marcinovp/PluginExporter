@@ -17,22 +17,7 @@
 		{
 			"Name": "RegexInBP",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"WhitelistPlatforms": [
-				"Win32",
-				"Win64",
-				"HoloLens",
-				"Mac",
-				"XboxOne",
-				"PS4",
-				"IOS",
-				"Android",
-				"Linux",
-				"AllDesktop",
-				"TVOS",
-				"Switch",
-				"Lumin"
-			]
+			"LoadingPhase": "Default"
 		}
 	]
 }
